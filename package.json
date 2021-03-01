@@ -1,6 +1,6 @@
 {
-  "name": "random-number",
-  "version": "1.0.8",
+  "name": "rnum",
+  "version": "1.1.0",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
@@ -22,6 +22,7 @@
   },
   "peerDependencies": {},
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "random-number": "^1.0.8"
   }
 }
