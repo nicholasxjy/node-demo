@@ -1301,6 +1301,13 @@ pkg-dir@^4.1.0:
   dependencies:
     find-up "^4.0.0"
 
+random-number@^1.0.8:
+  version "1.0.8"
+  resolved "https://tech-npm.tezign.com/random-number/-/random-number-1.0.8.tgz#20f8f7d463f6b68edef142625ff9038c39caf866"
+  integrity sha512-hK2NuEICECGVpMjqINbNxRMm5p5kasnG4mQdBD46fInsOZJ0Vot9QRdSlvaAmnF8GmjeEgKYoaiIuAUeAgtUFw==
+  dependencies:
+    lodash "^4.17.21"
+
 regenerate-unicode-properties@^8.2.0:
   version "8.2.0"
   resolved "https://tech-npm.tezign.com/regenerate-unicode-properties/-/regenerate-unicode-properties-8.2.0.tgz#e5de7111d655e7ba60c057dbe9ff37c87e65cdec"

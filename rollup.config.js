@@ -13,12 +13,12 @@ export default {
     file: "dist/index.js",
     exports: "named",
   },
-  external(id) {
-    return (
-      deps.some((k) => new RegExp(`^${k}`).test(id)) ||
-      peerDeps.some((k) => new RegExp(`^${k}`).test(id))
-    );
-  },
+  // external(id) {
+  //   return (
+  //     deps.some((k) => new RegExp(`^${k}`).test(id)) ||
+  //     peerDeps.some((k) => new RegExp(`^${k}`).test(id))
+  //   );
+  // },
   plugins: [
     nodeResolve(),
     typescript({

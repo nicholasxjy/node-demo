@@ -1,5 +1,6 @@
-import random from 'lodash/random'
+import random from 'random-number'
 
-export default function getRandom(base = 1) {
-  return random(base)
+export default function getRandomNumber(base = 1) {
+  const num = random(base)
+  return num
 }
