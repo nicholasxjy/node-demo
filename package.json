@@ -1,6 +1,6 @@
 {
   "name": "random-number",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
@@ -20,7 +20,7 @@
     "rollup-plugin-typescript2": "^0.30.0",
     "typescript": "^4.2.2"
   },
-  "dependencies": {
+  "peerDependencies": {
     "lodash": "^4.17.21"
   }
 }
